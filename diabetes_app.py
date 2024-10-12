@@ -27,6 +27,3 @@ if st.button("Predict"):
         st.error("The person is likely to have diabetes.")
     else:
         st.success("The person is unlikely to have diabetes.")
-
-# To run this app, use the command in terminal:
-# streamlit run app.py
